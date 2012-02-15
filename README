@@ -1,0 +1,3 @@
+Java code using redis as a graph adjacency list. 
+For querying neighbours, got response times near a milli second.
+Neo4j is much faster, probably because the DB was embedded in the same jvm, no network overhead as in the case of Redis.
